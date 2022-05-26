@@ -1,0 +1,16 @@
+.shoes-details-container {
+  margin: 20px;
+  border: 1px solid gainsboro;
+  font-family: SuisseIntl-Regular;
+  font-size: 24px;
+}
+.shoes-image {
+  height: 60vh;
+  width: 40vw;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 5px;
+}

@@ -1,0 +1,14 @@
+.input-container {
+  margin: 10px;
+  font-family: SuisseIntl-Medium;
+  color: gray;
+}
+input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+}

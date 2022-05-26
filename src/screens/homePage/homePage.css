@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@500;600;700&display=swap");
+.home-container a {
+  color: black;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  height: 85vh;
+  color: black;
+  text-shadow: 0 6px #999;
+}
+.welcome {
+  font-size: 5vw;
+  font-family: "Lobster", cursive;
+}
+.home-categories {
+  display: flex;
+  gap: 50px;
+  height: 90%;
+}
+.category-box {
+  width: 40vw;
+  height: 100%;
+  border: 2px solid gainsboro;
+  font-family: "Lobster", cursive;
+  font-size: 6vw;
+  text-align: center;
+  font-weight: 700;
+}
+.buy {
+  background: url(https://cashcow-cdn.azureedge.net/images/bc88cf58-eeae-4c37-a2b2-48421decf34d.png)
+    no-repeat center center/cover;
+}
+.sell {
+  background: url(https://cdn.afew-store.com/assets/36/362240/1200/air-jordan-1-low-se-white-mint-foam-black-light-bordeaux-dm1199-100-sneaker-packshots-60.jpg)
+    no-repeat center center/cover;
+}

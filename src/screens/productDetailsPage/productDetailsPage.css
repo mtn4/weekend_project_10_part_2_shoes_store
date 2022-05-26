@@ -1,0 +1,17 @@
+.product-details-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.removed {
+  font-size: 36px;
+  font-family: SuisseIntl-Bold;
+}
