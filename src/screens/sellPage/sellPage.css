@@ -42,3 +42,24 @@
   font-family: "Lobster", cursive;
   text-shadow: 0 6px #999;
 }
+
+@media only screen and (max-width: 1000px) {
+  .sell-item {
+    width: 90vw;
+  }
+  .sell-container {
+    gap: 20px;
+  }
+}
+@media screen and (orientation: portrait) {
+  .finished,
+  .sell-logo {
+    font-size: 6vw;
+  }
+  .sell-item {
+    width: 90vw;
+  }
+  .sell-container {
+    gap: 20px;
+  }
+}

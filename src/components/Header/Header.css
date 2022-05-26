@@ -30,3 +30,14 @@ a {
   display: flex;
   gap: 30px;
 }
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    margin-bottom: 5px;
+    height: 50px;
+  }
+}
+@media screen and (orientation: portrait) {
+  .logo {
+    font-size: 24px;
+  }
+}

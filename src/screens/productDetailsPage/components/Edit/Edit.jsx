@@ -13,6 +13,14 @@ export default class Edit extends Component {
     img: "",
     price: "",
   };
+  componentDidMount() {
+    this.setState({
+      name: this.props.name,
+      brand: this.props.brand,
+      img: this.props.img,
+      price: this.props.price.substring(1),
+    });
+  }
   handleInputField = ({ target: { name, value } }) => {
     this.setState({ [name]: value });
   };

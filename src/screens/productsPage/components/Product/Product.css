@@ -17,3 +17,9 @@
   gap: 4px;
   padding-left: 5px;
 }
+@media screen and (orientation: portrait) {
+  .product-image {
+    height: 30vh;
+    width: 60vw;
+  }
+}
